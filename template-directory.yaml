@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: template-directory-2
+  description: this is a basic template directory
+spec:
+  targets:
+    - ./scaffolder-templates/docs-template/template.yaml
+    - ./scaffolder-templates/docs-template-cookiecutter/template.yaml
